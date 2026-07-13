@@ -34,6 +34,7 @@ body {
     color:white;
     font-family: "Fredoka", sans-serif;
     text-align: center;
+    overflow: hidden;
 }
 
 .header h1 {
@@ -43,4 +44,13 @@ body {
 
     white-space: nowrap;
     /* 화면사이즈 작아질시 글자 아래로가는것 없어지게 */
+}
+
+.header .point {
+    position: relative;
+    top:-400px;
+}
+
+.gnb-wrapper {
+    
 }
