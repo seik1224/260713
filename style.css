@@ -22,3 +22,25 @@ img { vertical-align: bottom; }
     5. 컨텐츠 영역을 만들어보세요.
 
 */
+
+body {
+    background-image: url('images/bg.png');
+    background-attachment: fixed;
+}
+.header {
+    background-color: #151515;
+    height: 400px;
+    line-height: 400px;
+    color:white;
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+}
+
+.header h1 {
+    font-size:200px;
+    letter-spacing: -20px;
+    word-spacing: 200px;
+
+    white-space: nowrap;
+    /* 화면사이즈 작아질시 글자 아래로가는것 없어지게 */
+}
